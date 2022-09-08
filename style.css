@@ -19,6 +19,8 @@
 ---------------------------------------------------------------------------*/
 @import url("https://tsunagu-keio.github.io/sample/inview.css");
 
+@import url("https://tsunagu-keio.github.io/sample/icon_menu.png");
+
 
 
 /*全体の設定
@@ -277,7 +279,7 @@ main p {
 
 /*×印が出ている状態の設定。*/
 #menubar_hdr.close {
-	background: rgb(188, 228, 163, 0.5) url("https://tsunagu-keio.github.io/sample/images/icon_menu.png") no-repeat center bottom/50px;
+	background: rgb(188, 228, 163, 0.5) url("https://tsunagu-keio.github.io/sample/icon_menu.png") no-repeat center bottom/50px;
 	/*背景色、背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
 }
 

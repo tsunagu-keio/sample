@@ -1,7 +1,7 @@
 setTimeout(function () {
     $('#mainimg').vegas({
         slides: [
-            { src: './https://tsunagu-keio.github.io/sample/1.jpg' },	//1枚目の写真指定
+            { src: 'https://tsunagu-keio.github.io/sample/1.jpg' },	//1枚目の写真指定
             { src: 'https://tsunagu-keio.github.io/sample/2.jpg' },	//2枚目の写真指定
             { src: 'https://tsunagu-keio.github.io/sample/3.jpg' },	//3枚目の写真指定
         ],

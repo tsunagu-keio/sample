@@ -107,15 +107,17 @@ iframe {
 	height: 100%;
 	width: 100%;
 	z-index: 9000;
+	
 }
 .start p {
+	padding-left: 20px;
 	position: fixed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
-	width: 280px;
+	width: 200px;
 }
 
 
@@ -187,7 +189,7 @@ a:hover {
 
 /*トップページ以外のロゴ画像の幅*/
 header #logo {
-	width: 120px;
+	width: 50px;
 }
 
 /*mainブロック

@@ -271,13 +271,13 @@ main p {
 	height: 50px;
 	/*高さ*/
 	cursor: pointer;
-	background: rgb(0, 64, 128, 0.7) url(https://tsunagu-keio.github.io/sample/icon_menu.png) no-repeat center top/50px;
+	background: rgb(0, 64, 128, 0.7) url("https://tsunagu-keio.github.io/sample/icon_menu.png") no-repeat center top/50px;
 	/*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
 }
 
 /*×印が出ている状態の設定。*/
 #menubar_hdr.close {
-	background: rgb(188, 228, 163, 0.5) url(https://tsunagu-keio.github.io/sample/images/icon_menu.png) no-repeat center bottom/50px;
+	background: rgb(188, 228, 163, 0.5) url("https://tsunagu-keio.github.io/sample/images/icon_menu.png") no-repeat center bottom/50px;
 	/*背景色、背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
 }
 

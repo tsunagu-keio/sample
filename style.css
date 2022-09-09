@@ -380,12 +380,6 @@ footer a {
 	text-decoration: none;
 }
 
-footer small span {
-	color: white;
-	font-size: large;
-	vertical-align: middle;
-}
-
 /*フッターにあるアイコン類
 ---------------------------------------------------------------------------*/
 /*アイコン類を囲むブロック*/
@@ -948,7 +942,15 @@ a.btn-gradient:hover {
 		width: 100%;
 		/*幅*/
 	}
-
+	
+	/*footerの©️*/
+	footer small span {
+	color: #E5E5E5;
+	font-size: large;
+	vertical-align: middle;
+	}
+	
+	
 	/*テーブル
 ---------------------------------------------------------------------------*/
 	/*テーブル１行目に入った見出し部分（※caption）*/
